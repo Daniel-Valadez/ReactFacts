@@ -1,0 +1,30 @@
+/* Navbar Styling */
+header{
+    background-color: #21222A;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 0 1rem; 
+    align-items: center;
+}
+nav div{
+    display: flex;
+    gap: 1rem;
+}
+img{
+    max-width: 3rem;
+}
+
+#imageTitle{
+    color: #61DAFB;
+    font-weight: 700; 
+    font-size: 1.5rem;
+}
+
+h4{
+    color: #DEEBF8; 
+    font-weight: 600;
+}
