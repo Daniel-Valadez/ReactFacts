@@ -1,0 +1,27 @@
+.notecard{
+    padding: 2.5rem 1.75rem;
+    background-color: #282D35;
+}
+
+h1{
+    margin: 0; 
+    font-size: 2.25rem;
+    color: #FFFFFF; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    color: #FFFFFF; 
+}
+
+ul li::before{
+    content: '\2022'; 
+    color: #61DAFB;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem; 
+}
