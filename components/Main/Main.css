@@ -9,19 +9,12 @@ h1{
     color: #FFFFFF; 
 }
 
-ul{
-    list-style-type: none;
-}
-
 ul li{
     color: #FFFFFF; 
+    line-height: 2.5rem;
 }
 
-ul li::before{
-    content: '\2022'; 
+ul li::marker{
     color: #61DAFB;
-    font-weight: bold;
-    display: inline-block;
-    width: 1rem;
-    margin-left: -1rem; 
+    font-size: 1.4rem;
 }
