@@ -2,7 +2,7 @@ import './Main.css';
 
 export default function Main(){
     return(
-        <div className='notecard'>
+        <main className='notecard'>
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -11,6 +11,6 @@ export default function Main(){
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </div>
+        </main>
     )
 }
